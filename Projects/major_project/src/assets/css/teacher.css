@@ -1,0 +1,134 @@
+/* Section  */
+.probootstrap-section {
+    padding: 7em 0;
+    position: relative;
+  }
+  
+  .probootstrap-section.probootstrap-section-sm {
+    padding: 3em 0;
+  }
+  
+  .probootstrap-section.probootstrap-border-top {
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  
+  .probootstrap-section.probootstrap-border-bottom {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  
+  .probootstrap-section > .container.probootstrap-border-top {
+    padding-top: 50px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  
+  .probootstrap-section.probootstrap-section-colored {
+    background: #6a41ed;
+  }
+  
+  .probootstrap-section.probootstrap-section-colored .section-heading h2 {
+    color: white;
+  }
+  
+  .probootstrap-section.probootstrap-section-colored .section-heading p {
+    color: rgba(255, 255, 255, 0.6);
+  }
+  
+  .probootstrap-section.probootstrap-bg-white {
+    background: #ffffff;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .probootstrap-section {
+      padding: 3em 0;
+    }
+  }
+  
+  .probootstrap-section.probootstrap-bg {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  
+  .probootstrap-section.probootstrap-bg:before {
+    position: absolute;
+    content: "";
+    background: rgba(0, 0, 0, 0.4);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  
+  .probootstrap-teacher {
+    padding: 20px;
+    border: 1px solid #e6e5e5;
+    -webkit-transition: .3s all;
+    transition: .3s all;
+    position: relative;
+    top: 0;
+    margin-bottom: 20px;
+  }
+  
+  .probootstrap-teacher .media {
+    margin-bottom: 20px;
+  }
+  
+  .probootstrap-teacher .media img {
+    border-radius: 50%;
+    width: 90px;
+    margin: 0 auto;
+  }
+  
+  .probootstrap-teacher .text h3 {
+    font-size: 20px;
+    margin: 0 0 0px 0;
+  }
+  
+  .probootstrap-teacher .text p {
+    margin-bottom: 10px;
+  }
+  
+  .probootstrap-teacher .probootstrap-footer-social li a {
+    font-size: 15px;
+  }
+  
+  .probootstrap-teacher .probootstrap-footer-social li.twitter a {
+    color: #1da1f2;
+  }
+  
+  .probootstrap-teacher .probootstrap-footer-social li.facebook a {
+    color: #3b5998;
+  }
+  
+  .probootstrap-teacher .probootstrap-footer-social li.instagram a {
+    color: #e1306c;
+  }
+  
+  .probootstrap-teacher .probootstrap-footer-social li.google-plus a {
+    color: #dd4b39;
+  }
+  
+  .probootstrap-teacher:focus, .probootstrap-teacher:hover {
+    top: -10px;
+    border: 1px solid transparent;
+    -webkit-box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.1);
+  }
+  .border{
+  border: 2px solid red;
+  padding: 2px;
+  }
+  .col-md-6{
+    width: 100%;
+  }
+  .col-md-3{
+    width: 250px;
+  }
+  .teacher_row{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2px;
+  }
+  .teacher{
+    margin: 5px;
+  }

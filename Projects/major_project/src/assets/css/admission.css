@@ -1,0 +1,61 @@
+/* Admission Css */
+.probootstrap-cta {
+    padding: 3em 0;
+    background: #6a41ed;
+    color: #ffffff;
+  }
+  
+  .probootstrap-cta h2 {
+    margin: 12px 0 0 0;
+    padding: 0;
+    color: #ffffff;
+    float: left;
+    line-height: 1.5;
+    font-weight: 300;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .probootstrap-cta h2 {
+      float: none;
+      width: 100%;
+      margin: 0px 0 0 0;
+      margin-bottom: 30px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .probootstrap-cta h2 {
+      text-align: center;
+    }
+  }
+  
+  .probootstrap-cta .btn {
+    float: right;
+    margin-top: 10px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .probootstrap-cta .btn {
+      float: none;
+      width: 100%;
+      margin-top: 0px;
+    }
+  }
+  
+  .probootstrap-cta .btn.btn-ghost {
+    width: 200px;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+  }
+  
+  @media screen and (max-width: 480px) {
+    .probootstrap-cta .btn.btn-ghost {
+      width: 100%;
+    }
+  }
+  
+  .probootstrap-cta .btn.btn-ghost:hover {
+    background: #ffffff;
+    color: #6a41ed;
+  }
+  

@@ -1,0 +1,17 @@
+@import "./admission.css";
+@import "./footer.css";
+@import "./teacher.css";
+@import "./courses.css";
+@import "./main.css";
+.nav_ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav_li {
+  margin: 10px;
+}
+.point{
+  cursor: pointer;
+}

@@ -1,0 +1,25 @@
+.main{
+    display: flex;
+    height: 100vh;
+    background-color: #bcddfe;
+}
+.about {
+    padding: 200px 100px 200px 100px;
+}
+.about h4{
+    font-size: 18px;
+    color: #2d3190;
+}
+.about h1{
+    font-size: 70px;
+    margin-top: 10px;
+}
+.about{
+    width: 60%;
+}
+.getStarted{
+    text-decoration: none;
+    color: white;
+    background-color: #2d3190;
+    padding: 15px;
+}

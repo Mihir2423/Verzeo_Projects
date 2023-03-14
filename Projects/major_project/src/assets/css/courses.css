@@ -1,0 +1,136 @@
+
+/* Courses CSS */
+
+.probootstrap-service-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+  }
+  
+  .probootstrap-service-2 .image {
+    width: 40%;
+  }
+  
+  .probootstrap-service-2 .text {
+    width: 60%;
+  }
+  
+  @media screen and (max-width: 480px) {
+    .probootstrap-service-2 .image, .probootstrap-service-2 .text {
+      width: 100%;
+    }
+  }
+  
+  .probootstrap-service-2 .image {
+    overflow: hidden;
+    position: relative;
+  }
+  
+  @media screen and (max-width: 480px) {
+    .probootstrap-service-2 .image {
+      width: 100%;
+      height: 200px;
+    }
+  }
+  
+  .probootstrap-service-2 .image .image-bg {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translateY(-50%) translateX(-50%);
+    transform: translateY(-50%) translateX(-50%);
+  }
+  
+  .probootstrap-service-2 .image .image-bg img {
+    min-width: 100%;
+    min-height: 100%;
+  }
+  
+  .probootstrap-service-2 .text {
+    padding: 20px;
+  }
+  
+  .probootstrap-service-2 .text h3 {
+    font-size: 20px;
+    margin: 0;
+  }
+  
+  .probootstrap-service-2 .text p {
+    margin-bottom: 20px;
+  }
+  
+  .probootstrap-service-2 .text p:last-child {
+    margin-bottom: 0;
+  }
+  
+  .probootstrap-service-2 .text .probootstrap-meta {
+    font-size: 14px;
+    color: #b3b2b2;
+  }
+  
+  .probootstrap-service-2 .text .probootstrap-meta {
+    font-size: 14px;
+    color: #b3b2b2;
+  }
+  
+  .section-heading {
+    margin-bottom: 70px;
+  }
+  
+  .section-heading h1 {
+    color: #ffffff;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .section-heading h1 {
+      font-size: 24px;
+      line-height: 24px;
+    }
+  }
+  
+  .section-heading h2 {
+    line-height: 40px;
+    font-size: 40px;
+    font-weight: 300;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .section-heading h2 {
+      font-size: 24px;
+      line-height: 24px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .section-heading p {
+      font-size: 16px;
+    }
+  }
+  .probootstrap-service-2 .text .probootstrap-meta {
+    font-size: 14px;
+    color: #b3b2b2;
+  }
+  .enrolled-count {
+    display: block;
+    margin-top: 10px;
+    font-size: 12px;
+    color: #b3b2b2;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-style: italic;
+  }
+   .text h3 {
+    font-size: 20px;
+    margin: 0 0 0px 0;
+  }
+  .text p {
+    margin-bottom: 10px;
+  }
+  .courseName{
+    font-weight: 500;
+    font-size: 29px;
+  }
