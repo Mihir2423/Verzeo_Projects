@@ -1,0 +1,36 @@
+#services{
+    display: flex;
+    margin: 20px;
+}
+#services .box{
+    border: 2px solid red;
+    border-radius: 20px;
+    margin: 8px;
+    padding: 30px;
+    background-color: rgb(250, 239, 237);
+    box-shadow: 5px 10px 20px rgba(240, 23, 23, 0.19), 5px 6px 6px rgba(219, 56, 56, 0.23);
+}
+#services img{
+    display: block;
+    margin: auto;
+    height: 180px;
+}
+#services p{
+    font-family: 'Bree Serif', serif;
+}
+.h-primary{
+    font-family: 'Bree Serif', serif;
+    font-size: 3.8rem;
+    color: #c61e39;
+    text-align: center;
+}
+.h-secondary{
+    font-family: 'Bree Serif', serif;
+    font-size: 2.2rem;
+    text-align: center;
+    font-weight: 500;
+}
+.center{
+    text-align: center;
+    font-weight: 300;
+}

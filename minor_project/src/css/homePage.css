@@ -1,0 +1,102 @@
+.homePage {
+  height: 90vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.homeBg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.home-content {
+  width: 50%;
+  margin: 30px 0px 0px 90px;
+  padding: 20px;
+}
+
+.home-content h1 {
+  font-size: 60px;
+  color: #c61e39;
+}
+
+.home-content h2 {
+  text-transform: uppercase;
+  font-weight: 300;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.menu-item {
+  display: flex;
+  flex-wrap: wrap;
+}
+.ice-container {
+  position: relative;
+  overflow: hidden;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  width: 170px;
+  height: 170px;
+  z-index: 1;
+}
+.ice-container::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #e5e5e5;
+  opacity: 0;
+  transition: 0.5s ease all;
+}
+.ice-item {
+  transition: 0.5s ease all;
+  width: 100%;
+  object-fit: cover;
+}
+.ice-container:hover img {
+  transform: scale(1.1);
+}
+
+.ice-container:hover::after {
+  opacity: 0.2;
+}
+.button {
+  background-color: #c72540;
+  text-decoration: none;
+  color: black;
+  border: 0 solid #e5e7eb;
+  position: relative;
+  text-align: center;
+  width: 190px;
+  position: relative;
+  font-size: 1.23rem;
+  font-weight: 500;
+  cursor: pointer;
+  transform: rotate(-2deg);
+  padding: 14px 0px;
+  margin-top: 10px;
+}
+
+.button:focus {
+  outline: 0;
+}
+
+.button:after {
+  content: "";
+  position: absolute;
+  border: 1px solid #000000;
+  bottom: 4px;
+  left: 4px;
+  width: calc(100% - 1px);
+  height: calc(100% - 1px);
+}
+
+.button:hover:after {
+  bottom: 2px;
+  left: 2px;
+}

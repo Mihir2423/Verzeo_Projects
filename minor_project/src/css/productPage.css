@@ -1,0 +1,79 @@
+.productsPage {
+  background-color: #e8e8fe;
+}
+
+.product-container {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.iceProduct {
+  position: relative;
+  margin-bottom: 19px;
+  margin-right: 18px;
+  padding: 10px;
+  width: 280px;
+  height: 370px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #dd927f15;
+  border-radius: 10px;
+  border-color: #9ecaed;
+  box-shadow: 0 0 8px #c61e39;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+.iceProduct:hover {
+  box-shadow: 0 0 16px #c61e39;
+  transform: translateY(-3px);
+}
+.iceName {
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+  border-bottom: 2px solid red;
+  margin-bottom: 10px;
+}
+
+.iceSubHead {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.iceRating {
+  position: absolute;
+  bottom: -10px;
+  left: 10px;
+  width: 100%;
+  height: 100%;
+  font-size: 11px;
+  text-align: left;
+  color: grey;
+}
+
+.rating {
+  color: red;
+  font-size: 9px;
+}
+.buttons-product{
+  position: absolute;
+  left: 40%;
+  bottom: 5px;
+  padding: 10px;
+  font-size: 13px;
+  background-color: #e1425d;
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 12px;
+  transition: all 0.2s ease-in-out;
+}
+.buttons-product:hover{
+  background-color: #c61e3a33;
+  color: black;
+  font-weight: 400;
+}
